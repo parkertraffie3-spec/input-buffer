@@ -1,0 +1,25 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081"
+	},
+	"version": "v1.0.0",
+	"id": "yourname.predictive-input-buffer",
+	"name": "Predictive Input Buffer",
+	"developer": "YourName",
+	"description": "Delays button presses/releases by a configurable number of physics ticks (F6 cycles 2/2, 4/4, 8/8, 16/8, OFF) and shows a live console.",
+	"settings": {
+		"show-console": {
+			"type": "bool",
+			"name": "Show live console",
+			"description": "Opens the 'Geode Predictive Input Buffer - Live Console' window on startup. Requires a game restart.",
+			"default": true
+		},
+		"verbose-log": {
+			"type": "bool",
+			"name": "Verbose input log",
+			"description": "Print every buffered input and when it is applied.",
+			"default": true
+		}
+	}
+}
